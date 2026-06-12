@@ -16,15 +16,6 @@ export default {
         display: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         mono: ['JetBrains Mono', 'SFMono-Regular', 'Consolas', 'monospace'],
       },
-      keyframes: {
-        scan: {
-          '0%': { transform: 'translateY(-100%)' },
-          '100%': { transform: 'translateY(100%)' },
-        },
-      },
-      animation: {
-        scan: 'scan 7s linear infinite',
-      },
     },
   },
   plugins: [],
